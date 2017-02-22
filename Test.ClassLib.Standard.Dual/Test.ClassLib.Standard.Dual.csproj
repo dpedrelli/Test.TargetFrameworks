@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp1.0;net46</TargetFrameworks>
+    <Description>Class Library created with the .NET Standard template.  Does not target .NET Standard.  Dual targets .NET Core and .NET Framework.  Consumes NuGet package.</Description>
+  </PropertyGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'netcoreapp1.0'">
+    <PackageReference Include="Test.NuGet.Standard.Dual">
+      <Version>1.0.0</Version>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>

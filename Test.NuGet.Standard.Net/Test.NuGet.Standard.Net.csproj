@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net46</TargetFramework>
+    <Description>Class Library created with the .NET Standard template.  Does not target .NET Standard.  Targets .NET Framework only.  Published as NuGet package, to be installed in Class Library or client app.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel" Version="1.1.0" />
+  </ItemGroup>
+
+</Project>

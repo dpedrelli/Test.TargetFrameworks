@@ -1,0 +1,8 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp1.0;net46</TargetFrameworks>
+    <Description>Class Library created with the .NET Standard template.  Does not target .NET Standard.  Dual targets .NET Core and .NET Framework.  Published as NuGet package, to be installed in Class Library or client app.</Description>
+  </PropertyGroup>
+
+</Project>

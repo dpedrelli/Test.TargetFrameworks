@@ -1,0 +1,2 @@
+﻿.NET Framework 4.6.1
+	- Class library targets .NET Standard 1.4, which corresponds to .NET Framework 4.6.1
